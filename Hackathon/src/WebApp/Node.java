@@ -9,7 +9,7 @@ public class Node {
     ArrayList<Link> departFromMeLinks;
     // 自分に入ってくるリンク
     ArrayList<Link> arriveAtMeLinks;
-
+    //
     public Node(String theName) {
         name = theName;
         departFromMeLinks = new ArrayList<Link>();
